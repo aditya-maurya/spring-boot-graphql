@@ -6,12 +6,12 @@ import java.util.List;
 public class AuthorContactDetails {
     private String id;
     private String email;
-    private String mobileNumber;
+    private String mobile;
 
-    public AuthorContactDetails(String id, String email, String mobileNumber){
+    public AuthorContactDetails(String id, String email, String mobile){
         this.id = id;
         this.email = email;
-        this.mobileNumber = mobileNumber;
+        this.mobile = mobile;
     }
 
     private  static List<AuthorContactDetails> contactDetailsList = Arrays.asList(
